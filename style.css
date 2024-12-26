@@ -5,3 +5,28 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: "roboto", sans-serif;
+}
+
+.header {
+    background-color: #1F2937;
+    padding: 16px 180px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+}
+
+.header ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+}
+
+.header ul a {
+    color: inherit;
+    text-decoration: none;
+}
