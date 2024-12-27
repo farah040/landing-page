@@ -137,3 +137,42 @@ body {
     font-weight: bolder;
     font-size: 20px;
 }
+
+.section4 {
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section4 .box {
+    width: 70%;
+    height: 135px;
+    border-radius: 8px;
+    padding: 50px 80px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    display: flex;
+    align-items: center;
+}
+
+.section4 .box .text {
+    flex: 1;
+}
+
+.section4 .header-text {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.section4 button {
+    background-color: transparent;
+    border: 3px solid #E5E7EB;
+    color: inherit;
+    border-radius: 8px;
+    padding: 8px 36px;
+    font-weight: bolder;
+    font-size: 1.125rem;
+    cursor: pointer;
+}
