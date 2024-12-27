@@ -176,3 +176,12 @@ body {
     font-size: 1.125rem;
     cursor: pointer;
 }
+
+.footer {
+    height: 90px;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
